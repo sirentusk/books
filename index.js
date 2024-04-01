@@ -1,15 +1,4 @@
-function Book(title, author, year, blurb, genres, audioduration) {
-    this.title = title;
-    this.author = author;
-    this.year = year;
-    this.blurb = blurb;
-    this.genres = genres;
-    this.audioduration = audioduration;
-    this.printout = function () {
-        console.log(`This book is ${this.title} by ${this.author} from ${this.year}. It's genre is ${this.genres} and it's audio duration is ${this.audioduration}.`);
-    }
-}
-
+// Fetch the JSON file
 fetch('readBooks.json')
     .then(response => response.json())
     .then(data => {
@@ -34,7 +23,17 @@ fetch('readBooks.json')
             book2Data.audioduration
         );
 
-        book1.printout(); // Output details of book1
-        book2.printout(); // Output details of book2
+        const book1Div = document.getElementById('book1');
+        const book2Div = document.getElementById('book2');
+
+        // Display details of book1
+        const book1Details = document.createElement('p');
+        book1Details.textContent = `Book 1: ${book1.title} by ${book1.author}, ${book1.year}`;
+        book1Div.appendChild(book1Details);
+
+        // Display details of book2
+        const book2Details = document.createElement('p');
+        book2Details.textContent = `Book 2: ${book2.title} by ${book2.author}, ${book2.year}`;
+        book2Div.appendChild(book2Details);
     })
     .catch(error => console.error('Error loading the file', error));
