@@ -1,1 +1,28 @@
-
+[
+  {
+  "Animal_Farm":{
+    "title":"Animal Farm",
+    "author":"George Orwell",
+    "year":"1945",
+    "blurb":"A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned –a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible. When Animal Farm was first published, Stalinist Russia was seen as its target. Today it is devastatingly clear that wherever and whenever freedom is attacked, under whatever banner, the cutting clarity and savage comedy of George Orwell’s masterpiece have a meaning and message still ferociously fresh.",
+    "genres":[
+      "Fiction",
+      "Dystopian"
+      ],
+    "audioduration":"3 hrs and 11 mins"
+    }
+  ​},
+  {
+  "Brave_New_World":{
+    "title":"Brave New World",
+    "author":"Aldous Huxley",
+    "year":"1932",
+    "blurb":"Aldous Huxley's profoundly important classic of world literature, Brave New World is a searching vision of an unequal, technologically-advanced future where humans are genetically bred, socially indoctrinated, and pharmaceutically anesthetized to passively uphold an authoritarian ruling order–all at the cost of our freedom, full humanity, and perhaps also our souls. “A genius [who] who spent his life decrying the onward march of the Machine” (The New Yorker), Huxley was a man of incomparable talents: equally an artist, a spiritual seeker, and one of history’s keenest observers of human nature and civilization. Brave New World, his masterpiece, has enthralled and terrified millions of readers, and retains its urgent relevance to this day as both a warning to be heeded as we head into tomorrow and as thought-provoking, satisfying work of literature. Written in the shadow of the rise of fascism during the 1930s, Brave New World likewise speaks to a 21st-century world dominated by mass-entertainment, technology, medicine and pharmaceuticals, the arts of persuasion, and the hidden influence of elites.",
+    "genres":[
+      "Fiction",
+      "Dystopian"
+      ],
+    "audioduration":"8 hrs"
+    }
+  ​},
+]
